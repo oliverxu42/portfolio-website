@@ -1,10 +1,11 @@
 import asdf from '@/app/favicon.ico';
 import Image from 'next/image';
 import Link from 'next/link';
+import { IoArrowForwardOutline } from 'react-icons/io5';
 
 export default function Home() {
   return (
-    <div className='container mx-auto my-auto px-5 py-36 '>
+    <div className='container mx-auto my-auto px-5 py-36'>
       <div className='flex justify-between mb-3'>
         <div>
           <h1 className='text-5xl font-bold mb-3'>Hi there! I'm Oliver ✈️</h1>
@@ -18,34 +19,26 @@ export default function Home() {
       </div>
       <div className='mb-10'>
         <p className='text-2xl font-light'>
-          Combining the worlds of space, tech and software development.
+          Connecting the worlds of space, tech and software development.
         </p>
       </div>
       <div className='mb-10'>
-        <button className='text-white bg-stone-800 hover:bg-gray-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-5'>
+        <Link
+          href='/CV_OliverXu_2024.pdf'
+          target='_blank'
+          className='text-white bg-stone-800 hover:bg-gray-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-5'
+        >
           Résumé
-        </button>
+        </Link>
         <button className='border hover:bg-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center'>
           Get in touch
         </button>
       </div>
       <div className='flex items-center'>
-        <Link href='/about'>Learn more about me</Link>
-        <svg
-          className='rtl:rotate-180 w-3.5 h-3.5 ms-2'
-          aria-hidden='true'
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 14 10'
-        >
-          <path
-            stroke='currentColor'
-            stroke-linecap='round'
-            stroke-linejoin='round'
-            stroke-width='1'
-            d='M1 5h12m0 0L9 1m4 4L9 9'
-          />
-        </svg>
+        <Link href='/about' className='flex items-center'>
+          Learn more about me
+          <IoArrowForwardOutline className='text-gray-600 ml-1' />
+        </Link>
       </div>
     </div>
   );

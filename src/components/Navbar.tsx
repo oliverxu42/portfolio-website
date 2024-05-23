@@ -22,6 +22,10 @@ const navItems: NavItem[] = [
     text: 'Contact',
     href: '/contact',
   },
+  {
+    text: 'Résumé',
+    href: '/CV_OliverXu_2024.pdf',
+  },
 ];
 
 const Navbar: React.FC = () => {

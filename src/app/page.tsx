@@ -1,9 +1,10 @@
 import asdf from '@/app/favicon.ico';
 import Image from 'next/image';
 import Link from 'next/link';
+
 import { IoArrowForwardOutline } from 'react-icons/io5';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className='container mx-auto my-auto px-5 py-36'>
       <div className='flex justify-between mb-3'>
@@ -42,4 +43,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;

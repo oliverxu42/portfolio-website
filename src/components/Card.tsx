@@ -46,7 +46,12 @@ const Card: React.FC<CardProps> = ({ name, description, url, tech }) => {
 const ProjectImage: React.FC<ImageProps> = ({ image }) => {
   return (
     <div className='relative w-1/2'>
-      <Image src={image} alt={image.split('.')[0].slice(1)} fill />
+      <Image
+        src={image}
+        alt={image.split('.')[0].slice(1)}
+        fill
+        style={{ objectFit: 'contain' }}
+      />
     </div>
   );
 };

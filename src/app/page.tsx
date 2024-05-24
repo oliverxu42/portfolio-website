@@ -1,4 +1,3 @@
-import asdf from '@/app/favicon.ico';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -7,22 +6,27 @@ import { IoArrowForwardOutline } from 'react-icons/io5';
 const Home: React.FC = () => {
   return (
     <div className='container mx-auto my-auto px-5 py-36'>
-      <div className='flex justify-between mb-3'>
-        <div>
+      <div className='flex space-x-24 mb-3'>
+        <div className='flex flex-col'>
           <h1 className='text-5xl font-bold mb-3'>Hi there! I'm Oliver ✈️</h1>
-          <h2 className='text-5xl font-light'>
+          <h2 className='text-5xl font-light mb-12'>
             Aerospace and software engineer.
           </h2>
+          <p className='text-2xl font-light'>
+            Connecting the worlds of space, tech and software development.
+          </p>
         </div>
-        <div className='m-3 px-5'>
-          <Image src={asdf} alt='asdf' width={150} height={150}></Image>
+        <div className='md:visible invisible'>
+          <Image
+            src='/me.jpg'
+            alt='oliver xu'
+            width={325}
+            height={325}
+            className='rounded-full'
+          ></Image>
         </div>
       </div>
-      <div className='mb-10'>
-        <p className='text-2xl font-light'>
-          Connecting the worlds of space, tech and software development.
-        </p>
-      </div>
+
       <div className='mb-10'>
         <Link
           href='/CV_OliverXu_2024.pdf'

@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
     <div className='min-h-full'>
       <nav className='bg-white h-20 p-5 flex items-center border'>
         <div className='flex items-center m-5 w-screen'>
-          <Link href='/' className='text-black font-bold text-3xl'>
+          <Link href='/' className='text-black font-semibold text-3xl'>
             Oliver Xu
           </Link>
           <div className='flex items-baseline space-x-10 ml-auto'>

@@ -43,7 +43,7 @@ const About: React.FC = () => {
             My journey and what I've done...
           </h2>
           <p className='my-2'>
-            As a kid growing up I've always had a fasciation about the complex
+            As a kid growing up I've always had a fascination about the complex
             world that we live in. How do these complicated systems and
             structures come together to create things that have such a
             significance in our lives? It started with me as a child spending
@@ -51,7 +51,7 @@ const About: React.FC = () => {
             apart to create my own imaginations, to obsessing over the inner
             workings of pretty much anything that moves (cars, motorbikes,
             planes...). When it came time to choose my path after graduating
-            from high school, engineering was unmistakeably the right choice.
+            from high school, engineering was unmistakably the right choice.
           </p>
           <p className='my-2'>
             Throughout my time at uni I've explored a wealth of knowledge in
@@ -59,7 +59,7 @@ const About: React.FC = () => {
             aerodynamics, propulsion, space systems and much more, whilst
             continuing to hone my programming skills, focusing on web
             development, cyber security, data structures, algorithms and the
-            list goes on. I've learnt to work as team, whether that be through
+            list goes on. I've learnt to work as a team, whether that be through
             uni projects, work or other extracurricular leadership roles, but
             also to be independent and self-sufficient.
           </p>
@@ -73,7 +73,7 @@ const About: React.FC = () => {
           </h2>
           <p className='mb-12'>
             Today, I'm wrapping up my degree and focusing on making the best out
-            of my studies for the reminder of my time at uni. I hope to be able
+            of my studies for the remainder of my time at uni. I hope to be able
             to bring my experiences, passion and skills to work together on
             amazing things.
           </p>
